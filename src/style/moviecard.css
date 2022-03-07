@@ -1,0 +1,66 @@
+.contanier{
+    margin: auto;
+    border: none;
+}
+
+.card-container{
+    min-height: 250px;
+    width: 150px;
+    margin-top: 40px;
+    margin-left: 40px;
+    border-radius: 10px;
+    background-color: rgba(19, 19, 19, 0.952);
+    box-shadow: rgba(2, 8, 87, 0.35) 2px 5px 10px;
+    transition: box-shadow 0.2s ;
+    transition: min-height 0.4s ease-in-out, width 0.4s ease-in-out;
+    border: none;
+  
+    
+}
+.card-container:hover{
+    min-height: 250px;
+    width: 155px;
+    box-shadow: rgba(2, 8, 87, 0.35) 2px 5px 30px;
+    transition: box-shadow 0.2s ease-in-out;
+    transition: min-height 0.4s ease-in-out, width 0.4s ease-in-out;
+    border: none;
+}
+
+.movie-year{
+    display: none;
+    background-color: transparent;
+}
+
+.movie-image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: none;
+    
+}
+.movie-image img:hover{
+    background: rgba(2, 2, 2, 0.199);
+    object-fit: inherit;
+}
+.movie-discription{
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    
+}
+.movie-type{
+    color: rgb(235, 229, 175);
+    padding-right: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.movie-title{
+    color: rgb(192, 192, 192);
+    font-size: x-small;
+}
+.movie-title span{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(236, 233, 181) ;
+    font-size: large;
+}
